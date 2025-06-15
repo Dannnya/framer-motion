@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { BouncingLoader } from './components/BouncingLoader';
+import { Gestures } from './components/Gestures';
 import './App.css';
 
 
@@ -10,6 +11,8 @@ function App() {
       {/* <motion.div className="box" animate={{ scale: [1, 2, 3, 2, 1] }} transition={{ duration: 5 }} /> */}
 
       <BouncingLoader />
+
+      <Gestures />
     </div>
   )
 }
