@@ -4,6 +4,8 @@ import { Gestures } from './components/Gestures';
 import './App.css';
 import { ImageGallery } from './components/ImageGallery';
 import { AnimatedShapes } from './components/AnimatedShapes';
+import { StaggerAnimation } from './components/StaggerAnimation';
+import { AnimatedGallery } from './components/AnimatedGallery';
 
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
       <ImageGallery />
 
       <AnimatedShapes />
+
+      <StaggerAnimation />
+
+      <AnimatedGallery />
     </div>
   )
 }
