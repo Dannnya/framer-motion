@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { BouncingLoader } from './components/BouncingLoader';
 import { Gestures } from './components/Gestures';
 import './App.css';
+import { ImageGallery } from './components/ImageGallery';
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       <BouncingLoader />
 
       <Gestures />
+      
+      <ImageGallery />
     </div>
   )
 }
