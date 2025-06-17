@@ -53,8 +53,10 @@ export const AnimatedGallery = () => {
             <motion.div className='flex' variants={parentVariants} initial='hidden'
                 animate={ showImages ? 'visible': 'hidden'}>
                 {galleryImages.map((image, index) => (
-                    <img src={image} alt={`Gallery image ${index + 1}`}
-                        className='ml-[2rem] w-[300px] rounded'/>
+                    <motion.img src={image} alt={`Gallery image ${index + 1}`}
+                        className='ml-[2rem] w-[300px] rounded'
+                        variants={ childVariants }
+                    />
                 ))}
             </motion.div>
         </div>
