@@ -7,6 +7,9 @@ import { AnimatedShapes } from './components/AnimatedShapes';
 import { StaggerAnimation } from './components/StaggerAnimation';
 import { AnimatedGallery } from './components/AnimatedGallery';
 import { RangeSlider } from './components/RangeSlider';
+import { DraggableBox } from './components/DraggableBox';
+import { AnimatedCard } from './components/AnimatedCard';
+import { ScrollAnimation } from './components/ScrollAnimation';
 
 
 function App() {
@@ -28,6 +31,19 @@ function App() {
       <AnimatedGallery />
 
       <RangeSlider />
+
+      <DraggableBox />
+
+      <h5 className='text-center text-3xl mb-4'>
+        Scroll down to see the animation
+      </h5>
+      
+      <div className="h-screen">
+      <AnimatedCard/>
+      </div>
+
+      <ScrollAnimation />
+
     </div>
   )
 }
