@@ -21,4 +21,4 @@ export const AnimationScroll = () => {
             </div>
         </div>
     )
-}; 
+};
