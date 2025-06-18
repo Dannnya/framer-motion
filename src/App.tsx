@@ -6,6 +6,7 @@ import { ImageGallery } from './components/ImageGallery';
 import { AnimatedShapes } from './components/AnimatedShapes';
 import { StaggerAnimation } from './components/StaggerAnimation';
 import { AnimatedGallery } from './components/AnimatedGallery';
+import { RangeSlider } from './components/RangeSlider';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <StaggerAnimation />
 
       <AnimatedGallery />
+
+      <RangeSlider />
     </div>
   )
 }
