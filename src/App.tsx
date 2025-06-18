@@ -10,6 +10,7 @@ import { RangeSlider } from './components/RangeSlider';
 import { DraggableBox } from './components/DraggableBox';
 import { AnimatedCard } from './components/AnimatedCard';
 import { ScrollAnimation } from './components/ScrollAnimation';
+import { AnimationScroll } from './components/AnimationScroll';
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
 
       <ScrollAnimation />
 
+      <AnimationScroll />
+      <div className='h-[200vh] bg-gray-800 flex items-center justify-center'>
+        <h4 className="text-white">Scroll Down</h4>
+      </div>
     </div>
   )
 }
