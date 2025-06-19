@@ -16,6 +16,7 @@ import { BouncingCirce } from './components/Exercises/BouncingCircle';
 import { SpinningIcon } from './components/Exercises/SpinningIcon';
 import { FadeComponent } from './components/Exercises/FadeComponent';
 import { Sidebar } from './components/Exercises/Sidebar';
+import { Modal } from './components/Exercises/Modal';
 
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
       <FadeComponent />
 
       <Sidebar />
+
+      <Modal />
     </div>
   )
 }
