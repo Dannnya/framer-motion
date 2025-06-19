@@ -14,6 +14,7 @@ import { AnimationScroll } from './components/AnimationScroll';
 import { Box } from './components/Exercises/Box';
 import { BouncingCirce } from './components/Exercises/BouncingCircle';
 import { SpinningIcon } from './components/Exercises/SpinningIcon';
+import { FadeComponent } from './components/Exercises/FadeComponent';
 
 
 function App() {
@@ -60,6 +61,8 @@ function App() {
       <BouncingCirce />
 
       <SpinningIcon />
+
+      <FadeComponent />
     </div>
   )
 }
