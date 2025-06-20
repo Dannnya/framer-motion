@@ -17,6 +17,7 @@ import { SpinningIcon } from './components/Exercises/SpinningIcon';
 import { FadeComponent } from './components/Exercises/FadeComponent';
 import { Sidebar } from './components/Exercises/Sidebar';
 import { Modal } from './components/Exercises/Modal';
+import { ResponsiveButton } from './components/Exercises/ResponsiveButton';
 
 
 function App() {
@@ -69,6 +70,8 @@ function App() {
       <Sidebar />
 
       <Modal />
+
+      <ResponsiveButton />
     </div>
   )
 }
