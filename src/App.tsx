@@ -18,6 +18,7 @@ import { FadeComponent } from './components/Exercises/FadeComponent';
 import { Sidebar } from './components/Exercises/Sidebar';
 import { Modal } from './components/Exercises/Modal';
 import { ResponsiveButton } from './components/Exercises/ResponsiveButton';
+import { Accordion } from './components/Exercises/Accordion';
 
 
 function App() {
@@ -72,6 +73,8 @@ function App() {
       <Modal />
 
       <ResponsiveButton />
+
+      <Accordion />
     </div>
   )
 }
