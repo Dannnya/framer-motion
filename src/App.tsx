@@ -19,6 +19,7 @@ import { Sidebar } from './components/Exercises/Sidebar';
 import { Modal } from './components/Exercises/Modal';
 import { ResponsiveButton } from './components/Exercises/ResponsiveButton';
 import { Accordion } from './components/Exercises/Accordion';
+import { ToastNotification } from './components/Exercises/ToastNotification';
 
 
 function App() {
@@ -75,6 +76,8 @@ function App() {
       <ResponsiveButton />
 
       <Accordion />
+
+      <ToastNotification />
     </div>
   )
 }
